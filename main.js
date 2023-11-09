@@ -10,6 +10,7 @@ let smb = 123;
 const name = "строка";
 const number = 2;
 const boolen = true;
+const null = null;
 
 // Шаблонные строки
 
