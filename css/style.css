@@ -1,0 +1,84 @@
+.container{
+    padding: 0 5%;
+} 
+ /* Стили для шапки */
+ header {
+     background-color: #333;
+     color: #fff;
+     padding: 20px;
+  
+     align-items: center;
+ }
+
+ .header-wrapper{
+    display: flex;
+    justify-content: space-between;
+ }
+
+ /* Стили для логотипа */
+ .logo {
+     font-size: 24px;
+     font-weight: bold;
+     text-decoration: none;
+     color: #fff;
+ }
+
+ /* Стили для меню */
+ nav {
+     display: flex;
+     align-items: center;
+ }
+
+ /* Стили для элементов меню */
+ nav ul {
+     list-style: none;
+     margin: 0;
+     padding: 0;
+     display: flex;
+ }
+
+ nav ul li {
+     margin-right: 20px;
+ }
+
+ nav ul li a {
+     color: #fff;
+     text-decoration: none;
+     padding: 10px;
+     display: block;
+ }
+
+ nav ul li:hover {
+     background-color: #fff;
+     color: #333;
+ }
+
+ /* Стили для выпадающего меню */
+ nav ul li ul {
+     display: none;
+     position: absolute;
+     background-color: #333;
+     padding: 10px;
+     top: 100%;
+     left: 0;
+    /*  width: 200px; */
+ }
+
+ nav ul li:hover ul {
+     display: block;
+ }
+
+ nav ul li ul li {
+     margin: 0;
+ }
+
+ nav ul li ul li a {
+     color: #fff;
+     padding: 5px;
+     display: block;
+ }
+
+ nav ul li ul li:hover {
+     background-color: #fff;
+     color: #333;
+ }
